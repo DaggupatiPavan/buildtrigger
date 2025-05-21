@@ -1,0 +1,16 @@
+name: Branch1 Workflow
+
+on:
+  workflow_dispatch:  # Allows manual and API-triggered runs
+
+jobs:
+  run-branch1-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run job logic for branch1
+        run: |
+          echo "Running workflow in branch1"
+          # Add your custom logic here
