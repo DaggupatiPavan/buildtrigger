@@ -1,8 +1,11 @@
-name: Branch1 Workflow
+name: Branch1
 
 on:
-  workflow_dispatch:  # Allows manual and API-triggered runs
+  push:
 
+  pull_request:
+
+  workflow_dispatch:
 jobs:
   run-branch1-job:
     runs-on: ubuntu-latest
