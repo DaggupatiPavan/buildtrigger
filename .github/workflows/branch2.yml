@@ -1,8 +1,7 @@
-name: Branch2 Workflow
-
+name: Branch2
 on:
+  push:
   workflow_dispatch:
-
 jobs:
   run-branch2-job:
     runs-on: ubuntu-latest
