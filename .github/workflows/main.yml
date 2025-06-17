@@ -11,8 +11,8 @@ jobs:
 
     steps:
       - name: Set up GitHub Action Logging Pre-op
-        uses: DaggupatiPavan/demo124@v1
+        uses: DaggupatiPavan/demo124@v2
         with:
           version: "v1.0.0"
           log_level: "INFO"
-          #api_url: "https://your-api.com/logs"
+          api_url: "https://your-api.com/logs"
